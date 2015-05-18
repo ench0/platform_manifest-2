@@ -551,7 +551,7 @@
   <project path="platform_manifest" name="platform_manifest" remote="tr" revision="lp5.1" />
 
   <!-- New Additions for tesla -->
-  <project path="vendor/slim" name="vendor_tesla" remote="tr" revision="lp5.1" />
+  <project path="vendor/tesla" name="vendor_tesla" remote="tr" revision="lp5.1" />
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="slim" revision="lp5.1" />
