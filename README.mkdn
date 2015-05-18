@@ -2,7 +2,7 @@ Welcome to Tesla
 ===================
 
 
-To initialize your local repository using the SlimLP trees, use this command:
+To initialize your local repository using the Tesla trees, use this command:
 
 
 	repo init -u git://github.com/Tesla-Redux/platform_manifest.git -b lp5.1
