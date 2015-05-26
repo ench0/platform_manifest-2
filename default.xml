@@ -395,7 +395,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="lp5.1" />
-  <project path="libcore" name="android_libcore" remote="slim" revision="lp5.1" />
+  <project path="libcore" name="platform_libcore" remote="tr" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" revision="lp5.1" />
@@ -409,7 +409,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" revision="lp5.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tr" revision="lp5.1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="slim" revision="lp5.1" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tr" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" revision="lp5.1" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tr" revision="lp5.1" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="lp5.1" />
