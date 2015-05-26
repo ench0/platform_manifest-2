@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="tesla_build" remote="tr" revision="lp5.1" >
+  <project path="build" name="tesla_build" remote="tr" revision="testing" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
