@@ -28,8 +28,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="slim" revision="lp5.1"  />
-  <project path="bionic" name="android_bionic" remote="slim" revision="lp5.1" />
+  <project path="art" name="android_art" remote="tr" revision="lp5.1"  />
+  <project path="bionic" name="android_bionic" remote="tr" revision="lp5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -246,7 +246,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" remote="slim" revision="lp5.1" />
+  <project path="external/skia" name="android_external_skia" remote="tr" revision="lp5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -462,7 +462,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" remote="slim" revision="lp5.1" />
+  <project path="system/core" name="android_system_core" remote="tr" revision="lp5.1" />
   <project path="system/extras" name="android_system_extras" remote="slim" revision="lp5.1" />
   <project path="system/extras/su" name="android_system_extras_su" remote="slim" revision="lp5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -517,7 +517,7 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-12.1" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.1" />
+  <project path="frameworks/av" name="frameworks_av" remote="tr" revision="lp5.1" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-12.1" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.1" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1" />
