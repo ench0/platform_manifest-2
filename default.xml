@@ -351,7 +351,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tr" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tr" revision="lp5.1" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" revision="lp5.1" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tr" revision="lp5.1" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tr" revision="lp5.1" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="lp5.1" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" revision="lp5.1" />
