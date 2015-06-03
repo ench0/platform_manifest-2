@@ -485,6 +485,11 @@
   <!-- New Additions for tesla -->
   <project path="vendor/tesla" name="vendor_tesla" remote="tr" revision="testing" />
 
+ <!-- Scripts -->
+  <project path="script" name="Tesla-Redux/BuildScripts" remote="tr" revision="master" >
+     <copyfile src="build_rom.sh" dest="build_rom.sh" />
+  </project>
+
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" />
 
