@@ -458,7 +458,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="android_system_core" remote="slim" revision="lp5.1" />
-  <project path="system/extras" name="android_system_extras" remote="slim" revision="lp5.1" />
   <project path="system/extras/su" name="android_system_extras_su" remote="slim" revision="lp5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
