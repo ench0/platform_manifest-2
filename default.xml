@@ -482,6 +482,7 @@
 
   <!-- New Additions for tesla -->
   <project path="vendor/tesla" name="vendor_tesla" remote="tr" revision="testing" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="tr" revision="lp5.1" />
 
  <!-- Scripts -->
   <project path="script" name="BuildScripts" remote="tr" revision="master" >
