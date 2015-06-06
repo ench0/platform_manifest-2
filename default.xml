@@ -488,6 +488,9 @@
      <copyfile src="build_rom.sh" dest="build_rom.sh" />
   </project>
 
+  <!-- ChameleonOS -->
+  <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="tr" revision="lp5.0" />
+
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" />
 
