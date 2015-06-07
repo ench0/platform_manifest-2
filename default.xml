@@ -489,7 +489,7 @@
   </project>
 
   <!-- ChameleonOS -->
-  <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="tr" revision="lp5.0" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="tr" revision="lp5.0" />
 
   <!-- Kernel Adiutor -->
   <project name="KernelAdiutor" path="packages/apps/KernelAdiutor" remote="tr" revision="lp5.1" />
