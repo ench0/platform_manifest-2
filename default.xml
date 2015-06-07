@@ -491,6 +491,10 @@
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="tr" revision="lp5.0" />
 
+  <!-- Kernel Adiutor -->
+  <project name="KernelAdiutor" path="packages/apps/KernelAdiutor" remote="tr" revision="lp5.1" />
+  <project name="android-floating-action-button" path="packages/apps/FloatingActionButton" remote="tr" revision="lp5.1" />
+
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" />
 
