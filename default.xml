@@ -338,7 +338,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="lp5.1" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tr" revision="lp5.1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="lp5.1" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" revision="lp5.1" />
