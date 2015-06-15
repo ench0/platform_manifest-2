@@ -322,7 +322,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/ril" name="hardware_ril" remote="slim" revision="lp5.1" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="lp5.1-caf" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="lp5.1" />
