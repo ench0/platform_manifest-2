@@ -320,8 +320,6 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/ril" name="hardware_ril" remote="slim" revision="lp5.1" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="lp5.1-caf" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="lp5.1" />
@@ -556,6 +554,10 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
 
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.1" />
+
+  <!-- RIL -->
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.1" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.1-caf" />
 
   <!-- Email -->
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-12.1" />
