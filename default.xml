@@ -293,7 +293,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="tr" revision="testing"  groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="lp5.1" />
