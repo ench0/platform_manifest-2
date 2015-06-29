@@ -20,7 +20,7 @@
   <remote  name="tr"
            fetch="git://github.com/Tesla-Redux"/>
 
-  <default revision="refs/tags/android-5.1.1_r4"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="4" />
 
@@ -38,7 +38,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" remote="slim" revision="lp5.1" />
+  <project path="development" name="android_development" remote="tr" revision="lp5.1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -320,8 +320,6 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/ril" name="hardware_ril" remote="slim" revision="lp5.1" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="lp5.1-caf" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="lp5.1" />
@@ -430,8 +428,6 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="android_system_core" remote="tr" revision="lp5.1" />
   <project path="system/extras/su" name="android_system_extras_su" remote="slim" revision="lp5.1" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="slim" revision="lp5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
@@ -486,7 +482,7 @@
   <project name="CyanogenMod/android_external_chromium_org_v8" path="external/chromium_org/v8" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" path="external/chromium_org/third_party/boringssl/src" remote="github" revision="cm-12.1" />
 
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.1" />
++  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tr" revision="lp5.1" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.1" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="github" revision="cm-12.1" />
@@ -495,7 +491,7 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-12.1" />
 
-  <project path="frameworks/av" name="frameworks_av" remote="tr" revision="lp5.1" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.1" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-12.1" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.1" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1" />
@@ -524,7 +520,9 @@
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="github" revision="cm-12.1" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-12.1" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.1" />
-
+  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" remote="github" revision="cm-12.1" />
+  <project path="system/security" name="CyanogenMod/android_system_security" remote="github" revision="cm-12.1" />
+  
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-12.1" />
 
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-12.1" />
@@ -556,6 +554,10 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
 
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.1" />
+
+  <!-- RIL -->
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.1" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.1-caf" />
 
   <!-- Email -->
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-12.1" />
