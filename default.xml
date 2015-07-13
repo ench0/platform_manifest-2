@@ -29,7 +29,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="slim" revision="lp5.1"  />
-  <project path="bionic" name="android_bionic" remote="slim" revision="lp5.1" />
+  <project path="bionic" name="OptiPop/bionic" remote="github" revision="opti-5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
