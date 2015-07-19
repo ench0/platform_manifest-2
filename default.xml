@@ -20,7 +20,7 @@
   <remote  name="tr"
            fetch="git://github.com/Tesla-Redux"/>
 
-  <default revision="refs/tags/android-5.1.1_r5"
+  <default revision="refs/tags/android-5.1.1_r8"
            remote="aosp"
            sync-j="4" />
 
@@ -29,7 +29,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="slim" revision="lp5.1"  />
-  <project path="bionic" name="android_bionic" remote="slim" revision="lp5.1" />
+  <project path="bionic" name="OptiPop/bionic" remote="github" revision="opti-5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -247,7 +247,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="tr" revision="lp5.1" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="OptiPop/external_stlport" remote="github" revision="opti-5.1" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
@@ -267,6 +267,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
+  <project path="frameworks/av" name="frameworks_av" remote="tr" revision="lp5.1" />  
   <project path="frameworks/base" name="frameworks_base" remote="tr" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -293,7 +294,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="lp5.1" />
@@ -313,6 +314,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tr" revision="lp5.1" /> 
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -344,7 +346,6 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" revision="lp5.1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
@@ -407,6 +408,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.1" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />  
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
@@ -491,7 +493,6 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-12.1" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.1" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-12.1" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.1" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1" />
@@ -525,7 +526,6 @@
   
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-12.1" />
 
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-12.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-12.1" />
 
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.1" />
@@ -591,7 +591,8 @@
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-12.1" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="github" revision="cm-12.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-12.1" />
-
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-12.1" />
+  
   <!-- Gallery, Camera and Calculator -->
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-12.1" />
@@ -602,4 +603,15 @@
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="github" revision="cm-12.1" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="github" revision="cm-12.1" />
 
+  <!-- SlimWallpaperPicker -->
+  <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="tr" revision="lp5.1" />
+
+  <!-- Sabermod Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="martinusbe/arm-eabi-4.8" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="martinusbe/arm-eabi-4.9" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-sm" name="martinusbe/arm-eabi-5.1" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="martinusbe/arm-eabi-6.0" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="martinusbe/arm-linux-androideabi-4.9" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-sm" name="martinusbe/arm-linux-androideabi-5.1" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.0-sm" name="martinusbe/arm-linux-androideabi-6.0" remote="bb" revision="sabermod" />
 </manifest>
